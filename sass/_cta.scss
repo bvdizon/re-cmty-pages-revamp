@@ -1,0 +1,31 @@
+.thegroup-community-page__cta {
+  text-align: center;
+  margin: 100px auto;
+
+  .cta-container {
+    @media screen and (min-width: 1200px) {
+      display: flex;
+
+      img {
+        position: relative;
+        margin: -50px;
+      }
+    }
+  }
+
+  p {
+    font-family: var(--font-family-body) !important;
+    font-size: 18px;
+    margin: 0 0 15px 0 !important;
+
+    padding: 15px !important;
+    background-color: #f3f3f3;
+    font-style: italic;
+    font-weight: 500;
+
+    @media screen and (min-width: 1200px) {
+      padding-left: 50px !important;
+      text-align: left;
+    }
+  }
+}

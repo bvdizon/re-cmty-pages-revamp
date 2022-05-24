@@ -1,0 +1,65 @@
+/* Font Resources */
+@font-face {
+	font-family: 'OpenSansLight';
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Light-webfont.eot);
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Light-webfont.eot?#iefix)
+			format('embedded-opentype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Light-webfont.woff) format('woff'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Light-webfont.ttf) format('truetype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Light-webfont.svg#OpenSansLight) format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Regular-webfont.eot);
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Regular-webfont.eot?#iefix)
+			format('embedded-opentype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Regular-webfont.woff) format('woff'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Regular-webfont.ttf) format('truetype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/OpenSans-Regular-webfont.svg#OpenSansRegular) format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'NoticiaTextRegular';
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Regular-webfont.eot);
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Regular-webfont.eot?#iefix)
+			format('embedded-opentype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Regular-webfont.woff) format('woff'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Regular-webfont.ttf) format('truetype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Regular-webfont.svg#NoticiaTextRegular)
+			format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'NoticiaTextBold';
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Bold-webfont.eot);
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Bold-webfont.eot?#iefix)
+			format('embedded-opentype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Bold-webfont.woff) format('woff'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Bold-webfont.ttf) format('truetype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/NoticiaText-Bold-webfont.svg#NoticiaTextBold) format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DroidSerifRegular';
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/droidserif-webfont.eot);
+	src: url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/droidserif-webfont.eot?#iefix) format('embedded-opentype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/droidserif-webfont.woff) format('woff'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/droidserif-webfont.ttf) format('truetype'),
+		url(https://www.real-estate.ca/inc/skins/pt-2r/fnt/droidserif-webfont.svg#DroidSerifRegular) format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}

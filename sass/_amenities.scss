@@ -1,0 +1,149 @@
+.thegroup-community-page__amenities {
+  min-height: 100vh;
+
+  h2,
+  h3,
+  p {
+    font-family: var(--font-family-body) !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  h3 {
+    font-size: 36px !important;
+    font-weight: 400;
+    letter-spacing: -2px !important;
+    line-height: 1;
+    margin-bottom: 50px !important;
+    text-transform: initial !important;
+  }
+
+  .amenity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+
+    min-height: 900px;
+  }
+
+  & > div:nth-child(1) {
+    margin-top: -260px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 10%
+      ),
+      url('https://www.real-estate.ca/uploads/agent-1/calgary/e-calgary/dover/dover-27.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    @media screen and (min-width: 768px) {
+      background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0) 20%,
+          rgba(255, 255, 255, 1) 50%
+        ),
+        url('https://www.real-estate.ca/uploads/agent-1/calgary/e-calgary/dover/dover-27.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+    }
+
+    .amenity-text {
+      padding-top: 400px !important;
+      padding-bottom: 100px !important;
+      width: 90%;
+      margin-left: auto;
+
+      @media screen and (min-width: 768px) {
+        width: 40%;
+        margin-left: auto;
+      }
+    }
+  }
+
+  & > div:nth-child(2) {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 10%
+      ),
+      url('https://www.real-estate.ca/uploads/agent-1/calgary/e-calgary/dover/dover-41.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    @media screen and (min-width: 768px) {
+      background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 1) 50%,
+          rgba(255, 255, 255, 0) 100%
+        ),
+        url('https://www.real-estate.ca/uploads/agent-1/calgary/e-calgary/dover/dover-41.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+    }
+
+    .amenity-text {
+      width: 90%;
+
+      @media screen and (min-width: 768px) {
+        width: 40%;
+        margin-right: auto !important;
+      }
+    }
+  }
+
+  & > div:nth-child(3) {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 1) 10%
+      ),
+      url('https://www.real-estate.ca/uploads/agent-1/calgary/e-calgary/dover/southview-17.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+
+    @media screen and (min-width: 768px) {
+      background: linear-gradient(
+          90deg,
+          rgba(255, 255, 255, 0) 20%,
+          rgba(255, 255, 255, 1) 50%
+        ),
+        url('https://www.real-estate.ca/uploads/agent-1/calgary/e-calgary/dover/southview-17.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+    }
+
+    .amenity-text {
+      padding-top: 260px !important;
+      padding-bottom: 100px !important;
+      width: 90%;
+      margin-left: auto;
+
+      @media screen and (min-width: 768px) {
+        width: 40%;
+        margin-left: auto;
+      }
+    }
+  }
+
+  .par-1 {
+    color: rgba(0, 0, 0, 0.65) !important;
+  }
+
+  .par-2 {
+    color: rgba(0, 0, 0, 0.65) !important;
+    font-weight: 500 !important;
+  }
+}

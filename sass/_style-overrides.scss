@@ -1,0 +1,123 @@
+/* Main Styles Override */
+#body #ctas .wrap {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#body .wrap {
+  max-width: 100%;
+  padding: 0;
+}
+
+#body {
+  padding: 0 !important;
+}
+
+#ctas {
+  margin-bottom: 0 !important;
+}
+
+#content .mls-disclaimer {
+  width: 100% !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+/* @end */
+
+/* @group Globals */
+:root {
+  --font-family-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --box-shadow-23: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  --color-primary: #b31f24;
+}
+
+.thegroup-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.thegroup-community-page {
+  .subtitle-small {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: -1px;
+  }
+
+  .section-h2 {
+    font-size: 90px !important;
+    font-weight: 700;
+    margin: 50px 0 !important;
+  }
+
+  .subtitle-p {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 50ch;
+  }
+
+  .par-1 {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 15px !important;
+  }
+
+  .par-2 {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 15px !important;
+  }
+
+  .par-3 {
+    font-size: 38px;
+    line-height: 1.2;
+    margin-bottom: 15px !important;
+  }
+
+  .highlight-h2 {
+    font-weight: 400;
+    font-size: 50px !important;
+    color: #000;
+    display: block;
+    line-height: 1.2;
+
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 80px;
+      height: 3px;
+      background-color: black;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+  }
+}
+/* @end */
+
+/* @group Buttons */
+.thegroup-button {
+  font-family: var(--font-family-body) !important;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 !important;
+
+  text-decoration: none;
+  padding: 15px 25px;
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #f9f9f9;
+  transition: all 0.3s;
+  border: 1px solid var(--color-primary);
+  box-shadow: var(--box-shadow-23);
+
+  &:hover {
+    background-color: #f9f9f9 !important;
+  }
+}
+/* @end */

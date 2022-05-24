@@ -1,0 +1,55 @@
+.thegroup-community-page__video {
+  padding: 100px 0;
+
+  h2,
+  p {
+    font-family: var(--font-family-body) !important;
+
+    margin: 10px 0 !important;
+    padding: 0 !important;
+  }
+
+  h2 {
+    font-size: 50px !important;
+    font-weight: 300 !important;
+  }
+
+  .thegroup-container {
+    @media screen and (min-width: 1024px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+  }
+
+  .video-container {
+    position: relative;
+    margin-top: 80px;
+    box-shadow: var(--box-shadow-23);
+    height: 225px;
+
+    @media screen and (min-width: 768px) {
+      height: 415px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      height: 307px;
+    }
+
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  }
+
+  .par-2 {
+    color: #000;
+    font-weight: 500;
+  }
+}
