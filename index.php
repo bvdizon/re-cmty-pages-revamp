@@ -1,5 +1,5 @@
 <?php include 'template-parts/header.php'; ?>
 <!-- Entry CMS Content -->
-<?php include 'edgemont.php'; ?>
+<?php include 'hamptons.php'; ?>
 <!-- @end Entry CMS Content -->
 <?php include 'template-parts/footer-sidebar.php'; ?>
