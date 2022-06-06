@@ -205,5 +205,59 @@
     </div>
 </div>
 
-<!-- Insert Schema Mark Ups ( Video, Breadcrumbs, etc. if any ) -->
+
+//
+<![CDATA[
+{
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Edgemont, Calgary. Real Estate, Places and Things to Do",
+    "description": "Take a tour of Edgemont, Calgary with this video walkthrough of the neighbourhood. Learn about the community. Homes for sale in Edgemont range from condos and townhomes in the low $200,000’s to homes from the mid $350's.",
+    "thumbnailUrl": "https://www.youtube.com/watch?v=ei3QxLtyz-I&list=TLGGVB3-5cYQdUAxMjA3MjAyMQ",
+    "uploadDate": "2021-05-05",
+    "duration": "PT1M55S",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Real-Estate CA",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.real-estate.ca/inc/skins/pt-2r/schemes/keller-williams-inspired-2/img/Powered_By_REMAX.png",
+            "width": 250,
+            "height": 37
+        }
+    },
+    "contentUrl": "https://www.real-estate.ca/edgemont.php",
+    "embedUrl": "https://youtu.be/ei3QxLtyz-I"
+}
+// ]]>
+</script>
+<script type="application/ld+json">
+// <![CDATA[
+{
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Real Estate Listings in Calgary, Edmonton, Toronto, Vancouver, Ottawa",
+        "item": "https://www.real-estate.ca/"
+    }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Calgary Real Estate Listings | Browse Homes for Sale in Calgary",
+        "item": "https://www.real-estate.ca/calgary-listings.php"
+    }, {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Homes for Sale in the NorthWest Calgary Real Estate District",
+        "item": "https://www.real-estate.ca/nw-calgary-listings.php"
+    }, {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Edgemont Homes For Sale in NW. Calgary | Real Estate Listings",
+        "item": "https://www.real-estate.ca/edgemont.php"
+    }]
+} < /script>
+// ]]>
+</script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js" integrity="sha512-QzVuh4x4tCMgispFeeYqCiLJSsgReWU6DgKeR7+w/DQUABVzu9qO926wjzwV2OduOwn0g5Q1eZwRQyK1J1Hc6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

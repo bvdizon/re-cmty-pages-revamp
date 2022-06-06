@@ -1,7 +1,8 @@
 </div>
 
 <!-- Lazyload -->
-<script src="./js/lazysizes.min.js"></script>
+<script src="js/lazysizes.min.js"></script>
+
 <!-- End of Lazyload -->
 
 <aside id="sidebar">
