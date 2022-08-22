@@ -249,5 +249,59 @@
     </div>
 </div>
 
-<!-- Insert Schema Mark Ups ( Video, Breadcrumbs, etc. if any ) -->
+<script type="application/ld+json">
+// <![CDATA[
+{
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "Altadore Calgary. Real Estate, Places and Things to Do",
+    "description": "Altadore homes come in various shapes, sizes and styles, including lowrise apartment condos and townhouses, starting in the mid $200 000's and reaching prices of $6-$700 000. Residential attached, side-by-side duplex’ and single-family detached homes are also widely available, going anywhere between $400 000 to over $1M. More luxury homes are more central in the community, ranging from $1M to as high as several Million dollars including new infills. Watch the video to learn more about the Altadore real estate market and all the things to do in Altadore.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/kkdq33GW6-Y/default.jpg",
+    "uploadDate": "2020-04-02T06:40:18Z",
+    "duration": "PT1M35S",
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Group at RE/MAX First",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.real-estate.ca/inc/skins/pt-2r/schemes/keller-williams-inspired-2/img/Powered_By_REMAX.png",
+            "width": 250,
+            "height": 37
+        }
+    },
+    "contentUrl": "https://www.real-estate.ca/altadore.php",
+
+    "embedUrl": "https://www.youtube.com/embed/kkdq33GW6-Y"
+}
+// ]]>
+</script>
+<script type="application/ld+json">
+// <![CDATA[
+{
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Real Estate Listings in Calgary, Edmonton, Toronto, Vancouver, Ottawa",
+        "item": "https://www.real-estate.ca/"
+    }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Calgary Real Estate Listings | Browse Homes for Sale in Calgary",
+        "item": "https://www.real-estate.ca/calgary-listings.php"
+    }, {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Homes for Sale in the SouthWest Calgary Real Estate District",
+        "item": "https://www.real-estate.ca/sw-calgary-listings.php"
+    }, {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Altadore Homes For Sale in Marda Loop Calgary | Real Estate Listings",
+        "item": "https://www.real-estate.ca/altadore.php"
+    }]
+} < /script>
+// ]]>
+</script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js" integrity="sha512-QzVuh4x4tCMgispFeeYqCiLJSsgReWU6DgKeR7+w/DQUABVzu9qO926wjzwV2OduOwn0g5Q1eZwRQyK1J1Hc6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
