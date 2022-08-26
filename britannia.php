@@ -264,5 +264,59 @@
     </div>
 </div>
 
-<!-- Insert Schema Mark Ups ( Video, Breadcrumbs, etc. if any ) -->
+<script type="application/ld+json">
+// <![CDATA[
+{
+    "@context": "http://schema.org",
+    "@type": "VideoObject",
+    "name": "Britannia Calgary. Real Estate, Places and Things to Do",
+    "description": "The southwest quadrant of Calgary houses the small but upscale Britannia community. Known for the elegant architecture of its homes and beautiful landscapes, Britannia is located west of Elbow River and Elbow Drive. The Riverdale Park is to the west side of Britannia, while to the north is Britannia Drive. Watch the video to learn more about the Britannia real estate market and all the things to do in Britannia.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/y6kP1xX0pYk/default.jpg",
+    "uploadDate": "2020-04-02T13:42:45Z",
+    "duration": "PT1M18S",
+    "publisher": {
+        "@type": "Organization",
+        "name": "The Group at RE/MAX First",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.real-estate.ca/inc/skins/pt-2r/schemes/keller-williams-inspired-2/img/Powered_By_REMAX.png",
+            "width": 250,
+            "height": 37
+        }
+    },
+    "contentUrl": "https://www.real-estate.ca/britannia.php",
+    "embedUrl": "https://www.youtube.com/embed/y6kP1xX0pYk",
+    "interactionCount": "120"
+}
+// ]]>
+</script>
+<script type="application/ld+json">
+// <![CDATA[
+{
+    "@context": "https://schema.org/",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Real Estate Listings in Calgary, Edmonton, Toronto, Vancouver, Ottawa",
+        "item": "https://www.real-estate.ca/"
+    }, {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Calgary Real Estate Listings | Browse Homes for Sale in Calgary",
+        "item": "https://www.real-estate.ca/calgary-listings.php"
+    }, {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Homes for Sale in the SouthWest Calgary Real Estate District",
+        "item": "https://www.real-estate.ca/sw-calgary-listings.php"
+    }, {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Britannia Homes For Sale in SW. Calgary | Real Estate Listings",
+        "item": "https://www.real-estate.ca/britannia.php"
+    }]
+} < /script>
+// ]]>
+</script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fslightbox/3.3.1/index.js" integrity="sha512-QzVuh4x4tCMgispFeeYqCiLJSsgReWU6DgKeR7+w/DQUABVzu9qO926wjzwV2OduOwn0g5Q1eZwRQyK1J1Hc6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
